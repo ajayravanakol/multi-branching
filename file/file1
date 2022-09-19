@@ -1,0 +1,11 @@
+hi iam ajay goud ravanakol
+ 
+ pipeline {
+ agent any
+ stages{
+ stage('cloning the code from git hub')
+ steps{
+ echo" clone the code"
+ }
+ }
+ }
